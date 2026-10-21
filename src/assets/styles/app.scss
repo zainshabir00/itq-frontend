@@ -1,0 +1,51 @@
+body {
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+.workspace {
+    width: 100%;
+    max-width: 1088px;
+}
+
+.welcome-row h1 {
+    max-width: 720px;
+}
+
+.task-description {
+    white-space: normal;
+}
+
+.dialog-card {
+    width: min(100vw - 32px, 470px);
+}
+
+.dialog-card h2,
+.details-description {
+    overflow-wrap: anywhere;
+}
+
+.details-description {
+    white-space: pre-wrap;
+}
+
+.confirm-dialog {
+    width: min(100vw - 32px, 400px);
+}
+
+@media (max-width: 600px) {
+    .workspace {
+        max-width: 510px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
