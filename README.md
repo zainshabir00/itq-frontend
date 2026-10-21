@@ -81,8 +81,8 @@ Use the official Node.js installer or a trusted version manager, and choose a No
 If you do not already have a local copy, clone the repository using its URL:
 
 ```sh
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/zainshabir00/itq-frontend.git
+cd itq-frontend
 ```
 
 Replace the placeholders with the repository URL and the directory created by Git. If the project is already checked out, open a terminal in its root directory (the directory containing `package.json`).
